@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body>
-    <div class="header">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+    <div id="top" class="header">
         <div class="navbar">           
             <h3 class="logo">Portfolio.</h3> 
             <div class="nav-right">
                 <ul>
-                    <li class="menu">Home</li>
-                    <li class="menu"> experience</li>
-                    <li class="menu">Skills</li>
-                    <li class="menu">Projects</li>
-                    <li class="menu">Contact</li>
+                    <li class="menu"><a class="menu1" href="#top">Home</a></li>
+                    <li class="menu" ><a class="menu1" href="#experience">Experience</a> </li>
+                    <li class="menu" ><a class="menu1" href="#skills">Skills</a></li>
+                    <li class="menu" ><a class="menu1" href="#Projects">Projects</a></li>
+                    <li class="menu" ><a class="menu1" href="">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -32,19 +37,259 @@
                 </div>
                 <div class="down">
                     <div id="imgs"> 
-                        <img class="image1" src="/image/icons8-facebook-nouveau-48.png" alt="">                       
-                        <img class="image1" src="/image/icons8-instagram-48.png" alt="">
-                        <img class="image1" src="/image/icons8-nouveau-message-48.png" alt="">
-                        <img class="image1" src="/image/terrter.png" alt="">
-                        <img class="image1" src="/image/icons8-youtube-48.png" alt="">
+                        <a href="https://github.com/MustaphaJammali"><img class="image1" src="/image/icons8-github-48.png"alt=""></a> 
+                        <a href="mostafajammali51@gmail.com"><img class="image1" src="/image/icons8-nouveau-message-48.png" alt=""></a>                          
+                        <a href="https://fr-fr.facebook.com/reg/"><img class="image1" src="/image/icons8-facebook-nouveau-48.png"alt="">   </a>                                          
+                        <a href="https://www.instagram.com/accounts/emailsignup/"><img class="image1" src="/image/icons8-instagram-48.png" alt=""> </a>                       
+                        <a href="https://twitter.com/i/flow/signup"><img class="image1" src="/image/terrter.png" alt=""></a> 
                     </div>
-                    <button onclick="load(this)" id="dawnl">Download Cv</button>
+                    <a id="dawnl" href="/image/Screenshot 2025-04-08 215418.pdf" download="Mustapha Cv">Download Cv</a>
                 </div>
             </div>
-            <img id="img1" src="/image/Screenshot 2025-04-14 153256.png" alt="">
-           
+            <div id="main-right"><img id="img1" src="/image/Screenshot 2025-04-14 153256.png"alt=""></div>           
         </div>
-    </div>   
+    </div>
+    <hr class="slach">
+    <div id="experience" class="main2">
+        <h2>Profesional Experience</h2>
+        <div class="desktop2">
+            <div class="main2-left">
+                <div id="titre1">
+                    <h3 class="exp1">Web devlopment freelancer</h3>
+                    <hr class="horisentel-line">
+                </div>               
+                <p class="para5">right now I working like a freelancer 
+                    for 4 years it's like Extra income, Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat modi, labore quis mollitia nam amet provident iste repellat aliquid consequuntur ullam, sapiente harum itaque iure! Sint odit neque repellat sit?
+                </p>
+            </div>
+            <div class="verticle-line"></div>
+            <div class="main2-right">
+                <div class="main2-up">
+                    <div id="titre2">
+                        <hr class="horisentel-line1">
+                        <h3 class="exp2">Trading</h3>   
+                    </div> 
+                    <p class="para6">I trade for 4 years so I can Able to analyze market movement and trend using technical analysis, market psychology, and economic news analysis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse nobis officiis illum incidunt nemo aut rerum iste, ex ipsam minima dolor at! Dignissimos sed modi laborum inventore, aliquam id.</p>                  
+                </div>
+                <div class="main2-down">
+                    <div id="titre3">
+                        <hr class="horisentel-line2">
+                        <h3 class="exp3">Web development</h3>                    
+                    </div>                  
+                    <p class="para7">I work in a a company for 2 years so I have 
+                        an experience to work with a teem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur debitis nisi vitae deserunt exercitationem odit assumenda voluptatem soluta, ducimus, esse distinctio id dolore voluptas quo tenetur expedita velit enim hic?
+                    </p>
+                </div>
+            </div>  
+        </div>      
+    </div>
+
+
+    <hr class="slach">
+    <div id="skills" class="main3">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-colum">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skill-content">
+                        <div class="progress">
+                            <h3>HTML <span class="sp">90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span class="sp">80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span class="sp">65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python <span class="sp">75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-colum">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skill-content">
+                        <div class="progress">
+                            <h3>Web Devlopment <span class="sp">95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Graphic Design <span class="sp">67%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Web Design <span class="sp">85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SEO Marketing <span class="sp">60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <hr class="slach">
+    <div id="Projects" class="main4">
+        <h2 id="projet">My Projects</h2>
+        <div class="desktop4">
+            <div class="portfolio-box">
+                <img class="por" src="/image/Screenshot project1.png" alt="">
+                <div class="Portfolio-layer">
+                    <h4 id="un" class="white">Web Site</h4>
+                    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi asperiores alias quam rerum voluptatem </p>
+                    <a href="https://github.com/MustaphaJammali/nefel_education/tree/main/WEB%20FUNDAMENTALS/week3/code%20review"><img class="bouton" src="/image/Screenshot buttom.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img class="por" src="/image/Screenshot project2.png" alt="">
+                <div id="two" class="Portfolio-layer">
+                    <h4 class="white">Web Site</h4>
+                    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi asperiores alias quam rerum voluptatem</p>
+                    <a href="https://github.com/MustaphaJammali/nefel_education/tree/main/WEB%20FUNDAMENTALS/week2/day3/core/Profile%20Page"><img class="bouton" src="/image/Screenshot buttom.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img class="por" src="/image/Screenshot project3.png" alt="">
+                <div class="Portfolio-layer">
+                    <h4 id="three" class="white">Web Site</h4>
+                    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi asperiores alias quam rerum voluptatem</p>
+                    <a href="https://github.com/MustaphaJammali/nefel_education/tree/main/WEB%20FUNDAMENTALS/week2/day5/practice/DojoWeather"><img class="bouton" src="/image/Screenshot buttom.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img class="por" src="/image/Screenshot project4.png" alt="">
+                <div class="Portfolio-layer">
+                    <h4 id="for" class="white">Web Site</h4>
+                    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi asperiores alias quam rerum voluptatem</p>
+                    <a href="https://github.com/MustaphaJammali/nefel_education/tree/main/WEB%20FUNDAMENTALS/week2/day5/practice/Video%20Preview/video-preview"><img class="bouton" src="/image/Screenshot buttom.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img class="por" src="/image/Screenshot project5.png" alt="">
+                <div class="Portfolio-layer">
+                    <h4 id="five" class="white">Web Site</h4>
+                    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi asperiores alias quam rerum voluptatem</p>
+                    <a href="#"><img class="bouton" src="/image/Screenshot buttom.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img class="por" src="/image/Screenshot project6.png" alt="">
+                <div class="Portfolio-layer">
+                    <h4 id="six" class="white">Web Site</h4>
+                    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi asperiores alias quam rerum voluptatem</p>
+                    <a href="#"><img class="bouton" src="/image/Screenshot buttom.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <h2>What Our Clients Say</h2>
+        <div class="desktop4-1">
+            <div class="swiper testimomials-slider js-testimonials-slider"> 
+                <div class="swiper-wrapper">
+                    <div id="caste-1" class="swiper-slide testimonials-item">
+                        <div class="imfo">
+                            <img src="/image1/Screenshot 2025-04-16 180626.png" alt="">
+                            <div class="text-box">
+                                <h3 class="namme">John doe</h3>
+                                <span class="job">Web developer</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, soluta possimus a dolores, minima esse cumque iusto facere eaque architecto consequuntur neque et </p>
+                        <div class="rating">
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                        </div>
+                    </div>
+                    <div id="caste-2" class="swiper-slide testimonials-item">
+                        <div class="imfo">
+                            <img src="/image1/Screenshot 2025-04-16 180723.png" alt="">
+                            <div class="text-box">
+                                <h3 class="namme">John doe</h3>
+                                <span class="job">Web developer</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, soluta possimus a dolores, minima esse cumque iusto facere eaque architecto consequuntur neque et </p>
+                        <div class="rating">
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                        </div>
+                    </div>
+                    <div id="caste-3" class="swiper-slide testimonials-item">
+                        <div class="imfo">
+                            <img src="/image1/Screenshot 2025-04-16 180749.png" alt="">
+                            <div class="text-box">
+                                <h3 class="namme">John doe</h3>
+                                <span class="job">Web developer</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, soluta possimus a dolores, minima esse cumque iusto facere eaque architecto consequuntur neque et </p>
+                        <div class="rating">
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                        </div>
+                    </div>
+                    <div id="caste-4" class="swiper-slide testimonials-item">
+                        <div class="imfo">
+                            <img src="/image1/Screenshot 2025-04-16 181822.png" alt="">
+                            <div class="text-box">
+                                <h3 class="namme">John doe</h3>
+                                <span class="job">Web developer</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, soluta possimus a dolores, minima esse cumque iusto facere eaque architecto consequuntur neque et </p>
+                        <div class="rating">
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials-item">
+                        <div class="imfo">
+                            <img src="/image1/Screenshot 2025-04-16 181840.png" alt="">
+                            <div class="text-box">
+                                <h3 class="namme">John doe</h3>
+                                <span class="job">Web developer</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, soluta possimus a dolores, minima esse cumque iusto facere eaque architecto consequuntur neque et </p>
+                        <div class="rating">
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                            &#8902;
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination js-testimonials-slider"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="script.js"></script>    
 </body>
 </html>
