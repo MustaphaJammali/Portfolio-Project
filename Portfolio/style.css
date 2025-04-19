@@ -90,10 +90,11 @@
     padding: 0 0 5% 0;
 }
 #img1{
-    
     border-radius: 50%;  
-    width: 100%;
-    height: 50%; 
+    width: 50%;
+    height: 60%;
+    background: conic-; 
+    margin-left: 40%;
 }
 #img1{
     box-shadow:0 0 5rem red;
@@ -125,7 +126,7 @@
     box-shadow:0 0 1rem red ;
 }
 .image1{
-    border: 3px solid white
+    /* border: 3px solid white; */
     padding: 0px 2px;
     border-radius:50%;   
 }
@@ -310,7 +311,7 @@ h2{
 }
 
 .progress{
-    /* padding: 1rem 0; */
+    padding: 1rem 0;
 }
 
 .progress h3{
@@ -643,5 +644,42 @@ h6{
 .testimonials-item p{
     margin-top: 20px;
     color: hsl(0, 0%, 40%);
+}
 
+
+
+.main5{
+    background-color: black;
+}
+
+.main5 h2{
+    margin-left: 43%;
+}
+
+.desktop5{
+    margin-left: 38%;
+    width: 30%;
+}
+
+.full, .add, .phone, .mes{
+    width: 70%;
+    padding: 3%;
+    margin-left: 8%;
+    font-size: 100%;
+    margin-top: 1%;
+    border: 2px solid red;
+}
+
+.mes{
+    padding: 0 6% 30% 0;
+}
+
+
+.clics{
+    margin-left: 38%;
+    margin-top: 3%;
+    width: 20%;
+    padding: 2%;
+    background-color: red;
+    box-shadow:0 0 1rem red ;
 }
